@@ -1,0 +1,371 @@
+<!DOCTYPE html> <!-- предназначен для указания типа текущего документа -->
+<html> <!-- контейнер, который заключает в себе всё содержимое веб-страницы -->
+    <head> <!-- Этот раздел предназначен для заголовка страницы и технической информации. -->
+	    <meta charset="utf-8"> <!-- определяет данные, которые используются для хранения информации, предназначенной для браузеров и поисковых систем -->
+		<link rel="icon" href="Вадим.jpg" type="image/x-icon">
+		<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+		<meta name="ProgId" content="FrontPage.Editor.Document">
+		<title>Это интересно</title> <!-- заголовок документа - отображается, на вкладке браузера -->
+		<base target="_blank"> <!-- base - инструктирует браузер относительно полного базового адреса -->
+		<style> <!-- определения стилей элементов веб-страницы -->
+			h1 { 
+			font-size: 1.2em; 
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			color: #333366;
+			}
+			<!-- цвет текста и начертание шрифта в <h1> изменились. -->
+		</style>
+		<link rel="stylesheet" href="ie.css">
+		<link rel="alternate" type="application/rss+xml" 
+			title="Статьи с сайта webref.ru" href="https://webref.ru/rss.xml"> 
+		<link rel="icon" href="https://webref.ru/favicon.ico">
+			<!-- В данном примере подключается внешний файл со стилями с помощью атрибута 
+			rel="stylesheet" элемента <link>, указывается RSS-документ текущего сайта 
+			(link rel="alternate" type="application/rss+xml") и устанавливается 
+			иконка сайта в адресной строке браузера (link rel="icon"). -->
+		<script>
+			<!-- сценарий - предназначен для описания скриптов -->
+		</script>
+    </head>
+	<body> <!-- тело - предназначен для хранения содержимого веб-страницы (контента) -->
+		<p><a href="page/1.html">Hello, world</a></p> <!-- пояснение для base (выше) -->
+ 		<script>
+			<!-- сценарий - предназначен для описания скриптов -->
+		</script>
+		<H1>Лучкин Вадим Николаевич</H1><!-- H1...H6 шесть заголовков разного уровня -->
+		<hr><!-- горизонтальная линия -->
+		<p><strong>Здравствуйте</strong><!-- жирный -->, <u>друзья!</u><!-- подчёркивание --></p>
+		<p><small>Меня зовут</small><!-- уменьшает размер шрифта на единицу --> Лучкин Вадим Николаевич</p>
+		<p>Я <em>являюсь</em><!-- курсив --> <s>студентом</s><!-- зачёркнутый --> <i>курса</i><!-- курсив --> 
+		<br><!-- перенос строки --><b>Frontend-разработка</b><!-- жирный --></p>
+		<p>Пример нижнего и верхнего индексов: СН<sub>3</sub>СНО<sup>3</sup><!-- нижний и верхний индексы --> 
+		</p> <!-- текстовый абзац, параграф -->
+		<ul> <!-- маркированный список -->
+			<li>Красный</li> <!-- определяет отдельный пункт списка -->
+			<li>Синий</li>
+		</ul>
+		<ol> <!-- нумерованный список -->
+			<li>Зелёный</li>
+			<li>Желтый</li>
+		</ol>
+		<a href="Вадим.jpg">Посмотрите на мою фотографию!</a> <!-- якорь - предназначен для создания ссылок -->
+		<br><br>
+		<img src="Вадим.jpg" alt="картинка" title="эта картинка" width="100"> 
+				<!-- изображение в графическом формате GIF, JPEG, SVG или PNG -->
+		<p><a href="Вадим.jpg"><img src="Вадим.jpg" width="100" height="120" alt="Это я"></a></p>
+		        <!-- изображение совмещённое со ссылкой -->
+		<div class="block1">Первый блок</div> <!-- раздел, секция - является универсальным блочным элементом -->
+		<div class="block2">Второй блок</div> <!-- сгруппированые элементы меняют вид содержимого через стили -->
+		<p>Автор: <span>Лучкин В.Н.</span></p> <!-- span - Универсальный строчный элемент -->
+		<p>Соавтор: <span>Лучкин В.Н.</span></p> <!-- сгруппированые символы или другие строчные элементы меняющие вид содержимого через стили -->
+		<table> <!-- таблица - служит контейнером для элементов -->
+			<thead style="background: #fc0"> <!-- thead - однf или несколькj строк, которые представлены вверху таблицы-->
+			<colgroup width="150">
+			<colgroup span="9" align="center" width="150">
+				<col span="5">
+				<col span="4">
+			</colgroup> <!-- для задания ширины и стиля одной или нескольких колонок таблицы -->
+			<tbody style="background: #ccc" align="right"> <!-- для хранения одной или нескольких строк таблицы -->
+				<tr> <!-- строка таблицы - служит контейнером для создания строки таблицы -->
+					<th>Строка</th> <!-- создание одной ячейки заголовка таблицы -->
+					<th>Левый столбец</th>
+					<th>Средний столбец</th>
+					<th>Правый столбец</th>
+					<th>Ультраправый столбец</th>
+				</tr>
+			</tbody>
+			</thead>
+				<tr>
+					<td>А</td> <!-- одна ячейка с данными таблицы -->
+					<td>ячейка 1</td>
+					<td>ячейка 2</td>
+					<td>ячейка 3</td>
+					<td>ячейка 4</td>
+				</tr>
+				<tr>
+					<td>В</td>
+					<td>ячейка 5</td>
+					<td>ячейка 6</td>
+					<td>ячейка 7</td>
+					<td>ячейка 8</td>
+				</tr>
+				<tr>
+					<td>С</td>
+					<td>ячейка 9</td>
+					<td>ячейка 10</td>
+					<td>ячейка 11</td>
+					<td>ячейка 12</td>
+				</tr>
+				<tr>
+					<td>D</td>
+					<td>ячейка 13</td>
+					<td>ячейка 14</td>
+					<td>ячейка 15</td>
+					<td>ячейка 16</td>
+				</tr>			
+		</table>    <br><br>
+		
+  		<table> <!-- далее тажа таблица, но с изменением вида через стили -->
+			<caption>Таблица 2. </caption> <!-- созданиt заголовка к таблице -->
+			<col width="150" valign="top"> <!-- задаёт ширину и другие характеристики одной или нескольких колонок таблицы -->
+			<tfoot align="center" style="background: #ffc">
+				<!-- tfoot - представляет собой «подвал» таблицы -->
+				<tr>
+					<th class="index">Строка</th>
+					<th>Левый столбец</th>
+					<th>Средний столбец</th>
+					<th>Правый столбец</th>
+					<th>Ультраправый столбец</th>
+				</tr>
+				<tr>
+					<td class="index">A</td>
+					<td>ячейка 1</td>
+					<td class="even">ячейка 2</td>
+					<td class="odd">ячейка 3</td>
+					<td class="even">ячейка 4</td>
+				</tr>
+				<tr>
+					<td class="index">B</td>
+					<td class="star">ячейка 5</td>
+					<td class="odd">ячейка 6</td>
+					<td>ячейка 7</td>
+					<td class="even">ячейка 8</td>
+				</tr>
+				<tr>
+					<td class="index">C</td>
+					<td class="odd">ячейка 9</td>
+					<td class="star">ячейка 10</td>
+					<td>ячейка 11</td>
+					<td class="odd">ячейка 12</td>
+				</tr>
+				<tr>
+					<td class="index">D</td>
+					<td>ячейка 13</td>
+					<td>ячейка 14</td>
+					<td class="odd star">ячейка 15</td>
+					<td class="even">ячейка 16</td>
+				</tr>
+			</tfoot>
+		</table>
+		<hr>
+		<form> <!-- Форма предназначена для обмена данными между пользователем и сервером -->
+			<input> <!-- ввод - для создания текстовых полей, различных кнопок, переключателей и флажков -->
+			<br>
+			<input type="radio" name="q1"><br> <!-- radio - переключатель (допустим между всеми q1) -->
+			<input type="radio" name="q1"><br>
+			<fieldset> <!-- для группирования элементов формы - отображается в виде рамки-->
+				<legend>Выбрать</legend> <!-- создание заголовка группы элементов формы -->
+				<input type="checkbox" name="q2"><br> <!-- checkbox - флажок -->
+				<input type="checkbox" name="q3"><br>
+			</fieldset> 
+			<input type="hidden" name="q4">скрытое поле<br> <!-- скрытое поле -->
+			<input type="button" name="q5">кнопка<br> <!-- кнопка -->
+			<input type="password" name="q6">пароль<br> <!-- поле с паролем -->
+			<fieldset>
+				<input type="submit" name="q7">отправка<br> <!-- кнопка для отправки формы -->
+				<input type="reset" name="q8">очистка<br> <!-- кнопка для очистки формы -->
+			</fieldset>
+			<input type="file" name="q9">файл<br> <!-- поле для отправки файла -->
+			<input img="mylogo.png" name="q10">изображение<br> <!-- кнопка с изображением -->
+ 		</form>
+		<hr>
+		<button>Кнопка с текстом</button> <!-- кнопка - напоминает результат, получаемый с помощью <input> -->
+		<button> Кнопка с рисунком</button> <!-- кнопка - расширенные возможности по сравнению c <input> -->
+		<form action="handler.php">
+			<p><b>Выберите напиток</b></p>
+			<p><input type="checkbox" id="check1"><label for="check1">Коньяк</label><br> 
+				<!-- label - метка (обычно выступает текст) - устанавливает связь  с элементом формы -->
+			<input type="checkbox" id="check2"><label for="check2">Арманьяк</label><br>
+			<input type="checkbox" id="check3"><label for="check3">Кальвадос</label></p>
+		</form> 
+		<hr>
+		<form action="select1.php" method="post">
+			<p><select size="3" multiple name="hero[]"> <!-- создает элемент интерфейса в виде раскрывающегося списка -->
+			<option disabled>Выберите героя</option> <!-- вариант - определяет отдельные пункты списка -->
+			<option value="Чебурашка">Чебурашка</option>
+			<option selected value="Крокодил Гена">Крокодил Гена</option>
+			<option value="Шапокляк">Шапокляк</option>
+			<option value="Крыса Лариса">Крыса Лариса</option>
+		</form>
+		<hr>
+		<br>
+		<p><form action="textarea1.php" method="post">
+			<p><textarea rows="10" cols="45" name="text"></textarea></p>
+				<!-- textarea - создание области в которую можно вводить несколько строк текста -->
+		</form>
+		<hr>
+		<form action="handler.php">
+			<p><select>
+			<optgroup label="Цвет"> <!-- группа вариантов - представляет собой контейнер -->
+				<option value="c1">Апельсиновый</option>
+				<option value="c2">Лимонный</option>
+				<option value="c3">Персиковый</option>
+			</optgroup>
+			<optgroup label="Тон">
+				<option value="s1">Светлый</option>
+				<option value="s2">Нормальный</option>
+				<option value="s3">Темный</option>
+			</optgroup>
+			</select></p>
+		</form>
+		<hr>
+		<header> <!-- верхний колонтитул - задаёт «шапку» сайта или раздела веб-страницы -->
+			<h1>Персональный сайт Вадима Лучкина</h1>
+		</header>
+		<article> <!-- статья - представляет собой независимый фрагмент веб-страницы -->
+			<h2>Добро пожаловать!</h2>
+			<p>Рада приветствовать вас на своем сайте.</p>
+		</article>
+		<footer>Copyright Вадим Лучкин</footer> <!-- нижний колонтитул - задаёт «подвал» сайта или раздела веб-страницы -->
+		<hr>
+		<main>Моя история</main> <!-- главный - предназначен для основного содержимого документа -->
+		<section> <!-- Задаёт раздел документа, может применяться для блока новостей, контактной информации, глав текста, вкладок в диалоговом окне и др. -->
+			<h1>Съёмки фильма Полипропилен</h1>
+				<p>История о том, как снимали фильм.</p>
+		</section>
+		<hr>
+		<nav> <!-- задаёт навигацию по сайту- в <nav> обычно помещают приоритетные ссылки -->
+			<a href="page/1.html">Красный</a> | <a href="page/2.html">Синий</a> |
+			<a href="page/3.html">Зелёный</a> | <a href="page/4.html">Жёлтый</a></nav>
+		<aside> <!-- отступление - применяется для боковых панелей, рекламных блоков, ссылок на архив, меток и другой информации, которая отделена -->
+			<p>Экономьте электричество</p>
+			<p>Хороший язык</p>
+		</aside>
+			<style>aside { float: right; } </style><!-- сместили эту колонку вправо -->
+		<pre> <!-- форматированный текст - текст отображается со всеми пробелами между словами -->
+			 -                -----  
+			 -----           |-----
+			||----|          ----||  
+			||-----         -----||  
+			||-----|       |-----||
+			|| -----       ------||
+			||- ----|     |------||
+			||---||--     -------||
+			||--|| --|   |-------||
+			|| -|| |--   --- - --||
+			|| -||  --|-|--| - ---|
+			|---||  |-----| |-----|
+			|---||   |----  |-----| 
+			|----|    ---   |-----|
+			|-----          ------| 
+		</pre>
+		<iframe src="page/banner.html" width="468" height="60" align="left">
+			<!-- создаёт встроенный фрейм (контейнер), который находится внутри обычного документа -->
+		</iframe>
+		<p><object type="application/x-shockwave-flash" data="flash/mouse.swf" width="400" height="300">
+			<!-- object - объект (контейнер), сообщает браузеру, как загружать и отображать объекты -->
+			<param name="quality" value="high"> <!-- предаёт object дополнительные параметры -->
+			<param name="wmode" value="opaque">
+		</object></p>
+		<embed src="flash/mouse.swf" width="400" height="300" 
+           type="application/x-shockwave-flash"
+           pluginspage="https://get.adobe.com/flashplayer">  
+		   <!-- внедрить - используется для загрузки и отображения объектов, которые исходно браузер не понимает -->
+		<hr><br><br><br>
+		<audio controls> <!-- добавляет, воспроизводит и управляет настройками аудиозаписи -->
+			<source src="audio/music.ogg" type="audio/ogg; codecs=vorbis">
+				Тег audio не поддерживается вашим браузером. 
+			<a href="audio/music.mp3">Скачайте музыку</a>.
+		</audio>
+		<hr><br><br><br>
+		<video width="400" height="300" controls="controls" poster="video/duel.jpg">
+				<!-- Добавляет, воспроизводит и управляет настройками видеоролика -->
+			<source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+				<!-- Дsource - Вставляет звуковой или видеофайл (медийные файлы) -->
+			<track kind="subtitles" src="video/jane.ru.vtt" srclang="ru" label="Русский" default>
+				<!-- track - текстовая дорожка для медийных элементов -->
+				Элемент video не поддерживается вашим браузером. 
+			<a href="video/duel.mp4">Скачайте видео</a>.
+		</video>
+		<hr><br><br><br>
+		<canvas id="smile" width="200" height="200">
+				<!-- создаёт область, в которой при помощи JavaScript можно рисовать и трансформировать разные объекты -->
+			<p>Ваш браузер не поддерживает рисование.</p>
+		</canvas> 
+		<script> 
+			var drawingCanvas = document.getElementById('smile');
+			if(drawingCanvas && drawingCanvas.getContext) {
+			var context = drawingCanvas.getContext('2d');
+				// Рисуем окружность 
+			context.strokeStyle = "#000";
+			context.fillStyle = "#fc0";
+			context.beginPath();
+			context.arc(100,100,50,0,Math.PI*2,true);
+			context.closePath();
+			context.stroke();
+			context.fill();
+			// Рисуем левый глаз 
+			context.fillStyle = "#fff";
+			context.beginPath();
+			context.arc(84,90,8,0,Math.PI*2,true);
+			context.closePath();
+			context.stroke();
+			context.fill();
+			 // Рисуем правый глаз 
+			context.beginPath();
+			context.arc(116,90,8,0,Math.PI*2,true);
+			context.closePath();
+			context.stroke();
+			context.fill();
+			 // Рисуем рот
+			context.beginPath();
+			context.moveTo(70,115);
+			context.quadraticCurveTo(100,130,130,115);
+			context.quadraticCurveTo(100,150,70,115); 
+			context.closePath();
+			context.stroke();
+			context.fill();
+			}
+		</script>
+		<div id="title"><img src="image/ecctitle.png" width="640" height="158" 
+			alt="Детский образовательный центр"><br>
+			<img src="image/navigate.png" width="640" height="30" alt="Навигация по сайту"
+			usemap="#Navigation"></div>
+		<p><map name="Navigation">  <!-- map - лужит контейнером для элементов <area> -->
+			<area shape="poly" coords="113,24,211,24,233,0,137,0" href="page/inform.html" alt="Информация">
+			<area shape="poly" coords="210,24,233,0,329,0,307,24" href="page/activity.html" alt="Мероприятия">
+			<!-- area - определяет активные области изображения, которые являются ссылками -->
+		</map></p>
+		
+							<!-- остальные теги -->
+		
+		<p><time>1957-10-04</time> запущен первый искусственный спутник Земли.</p>
+				<!-- остальные теги -->
+		<p>В данном примере делается запрос <var>content</var> <!-- для выделения переменных из программ -->
+		, причем должно удовлетворяться условие 
+		<code>section_id = 1</code>. <!-- отображение программного кода -->
+		</p>
+		<address>Этот партал зделан сабствинаручно веб-дизайнером 
+		</address> <!-- для хранения контактной информации автора -->
+		<footer>
+			<address>Волоколамское шоссе, д. 17, офис 392</address>
+		</footer>
+		<p>Собственно<del>однородно транслирует</del> <!-- выделения текста, который был удалён в новой версии документа - зачёркивает -->
+			<ins>стремительно раскручивает</ins> <!-- выделения текста, который был удалён в новой версии документа - подчёркивает -->
+			интеграл</p>
+ 
+	</body>
+</html>
+
+
+  	</body>
+</html>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+ Спецсимволы
+&nbsp;
+&quot;
+&amp;
+&lt;
+&gt;
+&copy;
+&reg;
+&trade;
+&sect;
+&not;
+&deg;
+&plusmn;
+&sup1;
+&sup2;
+&sup3;
+&nbsp;
